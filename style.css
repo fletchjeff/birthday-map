@@ -1,0 +1,149 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    width: 780px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    /*  font-weight: 100;*/
+}
+.header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    vertical-align: top;
+    line-height: 55px;
+}
+#loader {
+    padding-left: 330px;
+    padding-top: 100px; 
+}
+.explanation {
+    width: 680px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top:10px;    
+}
+.buttons_row {
+    margin: 0 auto;
+    /*width: 190px;*/
+}
+.title {
+    width: 240px;
+    padding-top:8px;
+    padding-left: 50px;
+    float: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+
+}
+#values {
+    width: 200px;
+    padding-top:4px;
+    padding-left: 50px;
+    float: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: right;
+}
+.rect {
+    stroke-width: 1px;
+    stroke: #A2A2A2;
+}
+.days_lines {
+    stroke-width: 1px;
+    stroke: #DDDDDD;
+    stroke-dasharray: 2, 2;
+}
+.days_list {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    fill: #7A7A7A;
+    font-weight: 300;
+}
+.months_list {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    fill: #7A7A7A;
+    font-weight: 300;
+}
+/* I got the button CSS from http://www.lab.tommasoraspo.com/simple-web-buttoms/ */
+
+.button {
+    float: left;
+    cursor: pointer;
+    margin: 0 5px;
+    text-align: center;
+    /*display: inline-block;*/
+    text-decoration: none;
+    font: bold 12px/12px HelveticaNeue, Arial;
+    padding: 8px 11px;
+    color: #555;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.button.white {
+    background: #f5f5f5;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0');
+    /*  IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f0f0f0));
+    /*  WebKit */
+    background: -moz-linear-gradient(top, #f9f9f9, #f0f0f0);
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    -moz-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+}
+.button.white:hover {
+    background: #f4f4f4;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#f8f8f8');
+    /*  IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#f8f8f8));
+    /*  WebKit */
+    background: -moz-linear-gradient(top, #efefef, #f8f8f8);
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    text-shadow: 0 1px 0 #fdfdfd;
+    -webkit-box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    -moz-box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+}
+.brewer_blocks {
+    stroke-width: 1px;
+    stroke: #A2A2A2;
+}
+
+.bar_plot {
+    fill: rgb(43, 140, 190);
+}
+.graph_heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    fill: #7C7C7C;
+    font-weight: 300;
+}
+.axis {
+    font-family: "Open Sans", sans-serif;
+    font-size: 9pt;
+    fill: #7A7A7A;
+    font-weight: 300;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #f3f3f3;
+    stroke-opacity: 0.3;
+    shape-rendering: crispEdges;
+}
+.x.axis line {
+    display: none;
+}

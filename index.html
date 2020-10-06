@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+<div class="header">South African Birthdays</div>
+<div class="explanation"><p>This graph shows the distribution of birthdays by day of year for South Africans. You can choose to view the days ranked from 1 (most common) to 366 (least common). You can also see the actual frequency distribution to get a sense of how many people you share your birthday with. 
+If the frequency mode looks weird, that is because it is and you can read about it <a href="http://www.limn.co.za/2014/09/birthday-graph-for-south-africa">here</a></p></div>
+<div class="buttons_row">
+<div class="title" id="title">Rank</div>
+<div class="button white" onclick="draw_graphs('Rank',false);">Rank</div>
+<div class="button white" onclick="draw_graphs('Freq',false);">Frequency</div>
+<div class="button white" onclick="draw_graphs('Freq',true);">Bar</div>
+<div id="values">Mouse over the blocks</div>
+</div>
+<div style="clear:both"></div>
+<div id="loader"><img src="ajax-loader.gif"></div>
+<div id="chart"></div>
+<div id="brewer"></div>
+<div id="bar_graphs"></div>
+<div class="limn_link"><a href="http://www.limn.co.za"><img src="mini-limn.png"></a></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://underscorejs.org/underscore-min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="code.js"></script>
